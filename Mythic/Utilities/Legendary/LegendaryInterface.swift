@@ -366,11 +366,13 @@ final class Legendary {
         }
 
         guard !user.isEmpty else { throw SignInError() }
+        GameListVM.shared.refresh() // update mythic game library 🙏🏾🙏🏾
         return user
     }
 
     static func signOut() async throws {
         try await Legendary.command(arguments: ["auth", "--delete"], identifier: "signout") { _ in }
+        defaults.removeObject(forKey: "epicGamesWebDataStoreIdentifierString") // sign out of store and future signin webviews
     }
 
     /**
