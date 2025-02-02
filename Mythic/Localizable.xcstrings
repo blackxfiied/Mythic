@@ -2587,13 +2587,13 @@
             "value" : "%1$@ \"%2$@\"..."
           }
         },
-        "nl" : {
+        "nb" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$@ \"%2$@\"..."
           }
         },
-        "no" : {
+        "nl" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$@ \"%2$@\"..."
@@ -23480,6 +23480,9 @@
       }
     },
     "Mythic is verifying the connection to Epic Games." : {
+
+    },
+    "Need help with Mythic? Read through the docs or join our Discord server to get the support you need." : {
 
     },
     "Next" : {

@@ -30,7 +30,28 @@ struct SupportView: View {
     }
 
     var body: some View {
-        HStack {
+        VStack {
+            VStack(alignment: .leading) {
+                Text("Need help with Mythic? Read through the docs or join our Discord server to get the support you need.")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            
+            VStack {
+                WebView(
+                    url: .init(string: "https://docs.getmythic.app/")!,
+                    error: .constant(nil),
+                    isLoading: .constant(nil)
+                )
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(.background)
+            .clipShape(.rect(cornerRadius: 10))
+            
+            Divider()
+            
+        HStack{
             VStack {
                 WebView(
                     url: .init(string: "https://discord.com/widget?id=1154998702650425397&theme=\(colorSchemeValue)")!,
@@ -59,8 +80,9 @@ struct SupportView: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(.background)
-            .clipShape(.rect(cornerRadius: 10))
+                .clipShape(.rect(cornerRadius: 10))
         }
+    }
         .padding()
 
         .task(priority: .background) {
