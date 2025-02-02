@@ -10128,6 +10128,9 @@
     "Discord" : {
 
     },
+    "Discord server" : {
+
+    },
     "Disk Speed:" : {
       "localizations" : {
         "af" : {
@@ -15097,6 +15100,9 @@
           }
         }
       }
+    },
+    "GitHub Repository" : {
+
     },
     "Grid" : {
       "localizations" : {
@@ -22330,6 +22336,9 @@
     "Mythic %@" : {
 
     },
+    "Mythic Documentation" : {
+
+    },
     "Mythic Engine" : {
       "localizations" : {
         "af" : {
@@ -26144,6 +26153,9 @@
           }
         }
       }
+    },
+    "Please consider donating!" : {
+
     },
     "Preview" : {
       "comment" : "Within the context of Mythic Engine",
@@ -38722,6 +38734,9 @@
           }
         }
       }
+    },
+    "What's new in Mythic" : {
+
     },
     "Where do you want the container's base path to be located?" : {
       "localizations" : {
