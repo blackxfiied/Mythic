@@ -10128,7 +10128,7 @@
     "Discord" : {
 
     },
-    "Discord server" : {
+    "Discord Server" : {
 
     },
     "Disk Speed:" : {
@@ -14522,6 +14522,12 @@
     "Force Quit Running Windows® Applications" : {
 
     },
+    "Frequently asked questions" : {
+
+    },
+    "Game Compatibility list" : {
+
+    },
     "Game Location:" : {
       "localizations" : {
         "af" : {
@@ -15100,6 +15106,9 @@
           }
         }
       }
+    },
+    "Get the help you need" : {
+
     },
     "GitHub Repository" : {
 
@@ -19286,6 +19295,9 @@
           }
         }
       }
+    },
+    "Join our Discord Server" : {
+
     },
     "Launch Arguments" : {
       "localizations" : {
@@ -23491,9 +23503,6 @@
     "Mythic is verifying the connection to Epic Games." : {
 
     },
-    "Need help with Mythic? Read through the docs or join our Discord server to get the support you need." : {
-
-    },
     "Next" : {
       "localizations" : {
         "af" : {
@@ -26924,6 +26933,9 @@
     "Quit games running in this container?" : {
 
     },
+    "Read the documentation " : {
+
+    },
     "Remove" : {
       "localizations" : {
         "af" : {
@@ -27683,6 +27695,9 @@
           }
         }
       }
+    },
+    "Report an issue on GitHub" : {
+
     },
     "Reset" : {
       "localizations" : {

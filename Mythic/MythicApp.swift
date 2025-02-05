@@ -54,6 +54,7 @@ struct MythicApp: App {
                     }
             }
         }
+        
         .handlesExternalEvents(matching: ["open"])
         .environment(
             \.whatsNew,
