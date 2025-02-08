@@ -36,7 +36,6 @@ struct GameListCard: View {
                                     .resizable()
                                     .clipShape(.rect(cornerRadius: 20))
                                     .blur(radius: gameCardBlur)
-//                                    .opacity(0.5) Reduce the opacity to make the text more readable
                             }
 
                             image
