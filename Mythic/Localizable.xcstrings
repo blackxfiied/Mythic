@@ -2587,13 +2587,13 @@
             "value" : "%1$@ \"%2$@\"..."
           }
         },
-        "nl" : {
+        "nb" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$@ \"%2$@\"..."
           }
         },
-        "no" : {
+        "nl" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$@ \"%2$@\"..."
@@ -10128,6 +10128,9 @@
     "Discord" : {
 
     },
+    "Discord Server" : {
+
+    },
     "Disk Speed:" : {
       "localizations" : {
         "af" : {
@@ -14519,6 +14522,9 @@
     "Force Quit Running Windows® Applications" : {
 
     },
+    "Game Compatibility list" : {
+
+    },
     "Game Location:" : {
       "localizations" : {
         "af" : {
@@ -15097,6 +15103,12 @@
           }
         }
       }
+    },
+    "Get the help you need" : {
+
+    },
+    "GitHub Repository" : {
+
     },
     "Grid" : {
       "localizations" : {
@@ -19281,6 +19293,9 @@
         }
       }
     },
+    "Join the Discord Server" : {
+
+    },
     "Launch Arguments" : {
       "localizations" : {
         "af" : {
@@ -22328,6 +22343,9 @@
       }
     },
     "Mythic %@" : {
+
+    },
+    "Mythic Documentation" : {
 
     },
     "Mythic Engine" : {
@@ -26142,6 +26160,9 @@
         }
       }
     },
+    "Please consider donating!" : {
+
+    },
     "Preview" : {
       "comment" : "Within the context of Mythic Engine",
       "localizations" : {
@@ -26909,6 +26930,9 @@
     "Quit games running in this container?" : {
 
     },
+    "Read the documentation" : {
+
+    },
     "Remove" : {
       "localizations" : {
         "af" : {
@@ -27668,6 +27692,9 @@
           }
         }
       }
+    },
+    "Report an issue on GitHub" : {
+
     },
     "Reset" : {
       "localizations" : {
@@ -38719,6 +38746,9 @@
           }
         }
       }
+    },
+    "What's new in Mythic" : {
+
     },
     "Where do you want the container's base path to be located?" : {
       "localizations" : {

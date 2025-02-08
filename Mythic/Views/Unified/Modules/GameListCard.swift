@@ -43,6 +43,7 @@ struct GameListCard: View {
                                 .blur(radius: 20.0)
                                 .clipShape(.rect(cornerRadius: 20))
                                 .modifier(FadeInModifier())
+                                .opacity(0.5)
                                 .onAppear {
                                     withAnimation { isImageEmpty = false }
                                 }
